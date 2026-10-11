@@ -23,7 +23,7 @@ Apresentação completa, com telas e guia de uso: [trackingtm-apresentacao](http
 
 ### Trabalho de Conclusão de Curso
 
-**Um Modelo de Arquitetura de Integração de IA Conversacional no Suporte à Gestão de Relacionamento com Clientes** — TCC desenvolvido em dupla no curso de Ciência da Computação do IFSC.
+**Um Modelo de Arquitetura de Integração de IA Conversacional no Suporte à Gestão de Relacionamento com Clientes** — TCC desenvolvido em trio no curso de Ciência da Computação do IFSC.
 
 ## Tecnologias
 
