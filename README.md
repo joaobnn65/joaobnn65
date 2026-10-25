@@ -14,7 +14,7 @@
 ## Sobre mim
 
 - Bacharelado em Ciência da Computação — IFSC, Lages/SC, 8º semestre (fase final)
-- Atleta de tênis de mesa filiado à CBTM
+- Atleta de tênis de mesa
 - Idiomas: português (nativo), inglês (fluente) e espanhol (avançado)
 
 ## Projetos
