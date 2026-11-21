@@ -33,6 +33,20 @@ Sistema que calcula o rating e o Ranking Nacional de tênis de mesa **logo após
 
 Apresentação completa, com telas e guia de uso: [trackingtm-apresentacao](https://github.com/joaobnn65/trackingtm-apresentacao)
 
+### [Facilita: Lita, assistente de carros no WhatsApp](https://github.com/joaobnn65/facilita-apresentacao)
+
+<a href="https://github.com/joaobnn65/facilita-apresentacao"><img src="https://raw.githubusercontent.com/joaobnn65/facilita-apresentacao/main/img/painel-conversa-lita.jpg" alt="Facilita: conversa da Lita no painel" width="100%"></a>
+
+Atendimento por IA no WhatsApp, CRM de veículos e gerador de anúncios para uma intermediadora de carros de Blumenau/SC. A **Lita** conversa com quem quer comprar, vender ou trocar, monta a ficha da pessoa sozinha e o sistema cruza quem procura com os carros disponíveis. **No ar:** [litafacilita.com.br](https://litafacilita.com.br)
+
+- IA com saída estruturada (JSON Schema): a resposta e a ficha do cliente chegam validadas, e o código decide o que gravar
+- Fotos do celular viram foto de estúdio e pôster de anúncio, com a placa detectada e coberta no próprio servidor
+- Backend em Node.js 24 sem nenhum pacote do npm (`node:sqlite`, `node:http`, `node:crypto`), cerca de 130 testes e publicação automática com volta à versão anterior se algo falhar
+
+![Node.js](https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=nodedotjs&logoColor=white) ![SQLite](https://img.shields.io/badge/SQLite-003B57?style=flat-square&logo=sqlite&logoColor=white) ![OpenAI](https://img.shields.io/badge/OpenAI-412991?style=flat-square&logo=openai&logoColor=white) ![WhatsApp](https://img.shields.io/badge/WhatsApp%20Cloud%20API-25D366?style=flat-square&logo=whatsapp&logoColor=white) ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white) ![GitHub Actions](https://img.shields.io/badge/GitHub%20Actions-2088FF?style=flat-square&logo=githubactions&logoColor=white)
+
+Apresentação completa, com telas e como foi programado: [facilita-apresentacao](https://github.com/joaobnn65/facilita-apresentacao)
+
 ### [Rifa online com Pix automático](https://github.com/joaobnn65/rifa-online-pix)
 
 <a href="https://rifa-acec.pages.dev"><img src="https://raw.githubusercontent.com/joaobnn65/rifa-online-pix/main/docs/premios.webp" alt="Rifa online — prêmios" width="100%"></a>
@@ -56,9 +70,10 @@ Rifa online feita para a **ACEC – tênis de mesa de Campos Novos/SC** arrecada
 | --- | --- |
 | Linguagens | ![Java](https://img.shields.io/badge/Java-ED8B00?style=flat-square&logo=openjdk&logoColor=white) ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white) ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black) ![SQL](https://img.shields.io/badge/SQL-4479A1?style=flat-square&logo=databricks&logoColor=white) ![HTML](https://img.shields.io/badge/HTML-E34F26?style=flat-square&logo=html5&logoColor=white) ![CSS](https://img.shields.io/badge/CSS-1572B6?style=flat-square&logo=css3&logoColor=white) |
 | Dados | ![SQLite](https://img.shields.io/badge/SQLite-003B57?style=flat-square&logo=sqlite&logoColor=white) ![Cloudflare D1](https://img.shields.io/badge/Cloudflare%20D1-F38020?style=flat-square&logo=cloudflare&logoColor=white) |
+| IA e integrações | ![OpenAI](https://img.shields.io/badge/OpenAI-412991?style=flat-square&logo=openai&logoColor=white) ![WhatsApp](https://img.shields.io/badge/WhatsApp%20Cloud%20API-25D366?style=flat-square&logo=whatsapp&logoColor=white) |
 | Automação e coleta de dados | ![Playwright](https://img.shields.io/badge/Playwright-2EAD33?style=flat-square&logo=playwright&logoColor=white) |
 | Pagamentos | ![Mercado Pago](https://img.shields.io/badge/Mercado%20Pago-00B1EA?style=flat-square&logo=mercadopago&logoColor=white) ![Pix](https://img.shields.io/badge/Pix-32BCAD?style=flat-square&logo=pix&logoColor=white) |
-| Infraestrutura | ![Linux](https://img.shields.io/badge/Linux-FCC624?style=flat-square&logo=linux&logoColor=black) ![Cloudflare](https://img.shields.io/badge/Cloudflare-F38020?style=flat-square&logo=cloudflare&logoColor=white) ![Git](https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white) |
+| Infraestrutura | ![Node.js](https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=nodedotjs&logoColor=white) ![Linux](https://img.shields.io/badge/Linux-FCC624?style=flat-square&logo=linux&logoColor=black) ![Cloudflare](https://img.shields.io/badge/Cloudflare-F38020?style=flat-square&logo=cloudflare&logoColor=white) ![GitHub Actions](https://img.shields.io/badge/GitHub%20Actions-2088FF?style=flat-square&logo=githubactions&logoColor=white) ![Git](https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white) |
 
 ## Contato
 
@@ -69,7 +84,7 @@ Rifa online feita para a **ACEC – tênis de mesa de Campos Novos/SC** arrecada
 <details>
 <summary><b>English</b></summary>
 
-Computer Science student at the **Federal Institute of Santa Catarina (IFSC), Lages campus, Brazil**, in the final semester of the program. Creator of [TrackingTM](https://trackingtm.com.br), a system that calculates Brazilian table tennis ratings and national rankings right after each match, following the Brazilian Table Tennis Confederation (CBTM) rules. I also built an [online raffle with automatic Pix payments](https://github.com/joaobnn65/rifa-online-pix) (Mercado Pago API, Cloudflare Pages + D1) for a table tennis club in Campos Novos/SC. Undergraduate thesis on an architecture for integrating conversational AI into customer relationship management. Table tennis athlete. Fluent in English, advanced in Spanish.
+Computer Science student at the **Federal Institute of Santa Catarina (IFSC), Lages campus, Brazil**, in the final semester of the program. Creator of [TrackingTM](https://trackingtm.com.br), a system that calculates Brazilian table tennis ratings and national rankings right after each match, following the Brazilian Table Tennis Confederation (CBTM) rules. I also built an [online raffle with automatic Pix payments](https://github.com/joaobnn65/rifa-online-pix) (Mercado Pago API, Cloudflare Pages + D1) for a table tennis club in Campos Novos/SC, and [Facilita](https://github.com/joaobnn65/facilita-apresentacao), a WhatsApp AI assistant and vehicle CRM for a car brokerage in Blumenau/SC, with structured AI outputs, automatic studio photos for ads and continuous deployment. Undergraduate thesis on an architecture for integrating conversational AI into customer relationship management. Table tennis athlete. Fluent in English, advanced in Spanish.
 
 Contact: [jgdalvesco@gmail.com](mailto:jgdalvesco@gmail.com)
 
