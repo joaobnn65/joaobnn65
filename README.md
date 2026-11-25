@@ -1,7 +1,7 @@
 <h1 align="center">João Gabriel Dal Vesco Smaniotto</h1>
 
 <p align="center">
-  Ciência da Computação no <b>IFSC – câmpus Lages</b> · criador do <a href="https://trackingtm.com.br">TrackingTM</a> · atleta de tênis de mesa
+  Ciência da Computação no <b>IFSC – câmpus Lages</b> · criador do <a href="https://trackingtm.com.br">TrackingTM</a> e do <a href="https://github.com/joaobnn65/robo-extratos-apresentacao">Robô de Extratos</a> · atleta de tênis de mesa
 </p>
 
 <p align="center">
@@ -14,6 +14,9 @@
 ## Sobre mim
 
 - Bacharelado em Ciência da Computação — IFSC, Lages/SC, 8º semestre (fase final)
+- Desenvolvo sistemas em Python, Java e JavaScript, da concepção e modelagem de dados à interface, à implantação em servidor e à manutenção
+- Interesses: desenvolvimento de software, arquitetura de sistemas, segurança computacional e inteligência artificial aplicada a problemas reais
+- Estágio em suporte técnico em informática: manutenção de computadores, configuração de sistemas operacionais e atendimento aos usuários
 - Atleta de tênis de mesa
 - Idiomas: português (nativo), inglês (fluente) e espanhol (avançado)
 
@@ -32,6 +35,20 @@ Sistema que calcula o rating e o Ranking Nacional de tênis de mesa **logo após
 ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white) ![SQLite](https://img.shields.io/badge/SQLite-003B57?style=flat-square&logo=sqlite&logoColor=white) ![Playwright](https://img.shields.io/badge/Playwright-2EAD33?style=flat-square&logo=playwright&logoColor=white) ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black) ![Linux](https://img.shields.io/badge/Linux-FCC624?style=flat-square&logo=linux&logoColor=black) ![Cloudflare](https://img.shields.io/badge/Cloudflare-F38020?style=flat-square&logo=cloudflare&logoColor=white)
 
 Apresentação completa, com telas e guia de uso: [trackingtm-apresentacao](https://github.com/joaobnn65/trackingtm-apresentacao)
+
+### [Robô de Extratos: extratos bancários com IA para o QuickBooks](https://github.com/joaobnn65/robo-extratos-apresentacao)
+
+<a href="https://github.com/joaobnn65/robo-extratos-apresentacao"><img src="https://raw.githubusercontent.com/joaobnn65/robo-extratos-apresentacao/main/img/lote.png" alt="Robô de Extratos: revisão de um extrato" width="100%"></a>
+
+Sistema em uso por um **escritório de contabilidade nos Estados Unidos**. Lê extratos bancários em PDF, digitais ou escaneados, confere a leitura com os totais impressos pelo banco, classifica cada lançamento e gera os arquivos que o QuickBooks Desktop importa direto. O contador revisa só o que o robô não tem certeza, e o robô aprende com cada revisão.
+
+- Nos testes com extratos reais, a leitura conferiu com os totais do banco em todos os casos e de 85% a 91% dos lançamentos foram classificados automaticamente
+- Classificação em camadas: regras do escritório e do cliente, histórico do cliente e IA (Claude) restrita às contas do plano de cada cliente
+- Feito para a equipe usar ao mesmo tempo: painel do escritório, fila de processamento e revisão conjunta do mesmo extrato
+
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white) ![Claude](https://img.shields.io/badge/Claude%20API-D97757?style=flat-square&logo=anthropic&logoColor=white) ![OpenCV](https://img.shields.io/badge/OpenCV-5C3EE8?style=flat-square&logo=opencv&logoColor=white) ![ONNX](https://img.shields.io/badge/ONNX%20Runtime-005CED?style=flat-square&logo=onnx&logoColor=white) ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black) ![QuickBooks](https://img.shields.io/badge/QuickBooks%20Desktop-2CA01C?style=flat-square&logo=quickbooks&logoColor=white) ![Windows Server](https://img.shields.io/badge/Windows%20Server-0078D4?style=flat-square&logo=windows&logoColor=white)
+
+Apresentação completa, com telas: [robo-extratos-apresentacao](https://github.com/joaobnn65/robo-extratos-apresentacao)
 
 ### [Facilita: Lita, assistente de carros no WhatsApp](https://github.com/joaobnn65/facilita-apresentacao)
 
@@ -64,16 +81,24 @@ Rifa online feita para a **ACEC – tênis de mesa de Campos Novos/SC** arrecada
 
 **Um Modelo de Arquitetura de Integração de IA Conversacional no Suporte à Gestão de Relacionamento com Clientes** — TCC desenvolvido em trio no curso de Ciência da Computação do IFSC.
 
+Uma API de agendamentos multi-tenant, o canal WhatsApp e um agente baseado em modelo de linguagem para pequenos negócios de serviços, como barbearias e clínicas. O agente só age pelas rotas que a API já tem e com as permissões do próprio cliente, então as regras de negócio valem independentemente do que o modelo fizer.
+
+- Isolamento de dados entre negócios, prevenção de agendamento duplicado com travas de linha e processamento assíncrono de tarefas
+- Testes automatizados das garantias do agente, inclusive tentativas de agir sobre dados de outros clientes, e auditoria manual de segurança
+- Avaliação planejada com o modelo real: intenções, extração de informações, alucinação e resistência a prompt injection
+
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white) ![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white) ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white) ![Redis](https://img.shields.io/badge/Redis-DC382D?style=flat-square&logo=redis&logoColor=white) ![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
+
 ## Tecnologias
 
 | Área | Tecnologias |
 | --- | --- |
 | Linguagens | ![Java](https://img.shields.io/badge/Java-ED8B00?style=flat-square&logo=openjdk&logoColor=white) ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white) ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black) ![SQL](https://img.shields.io/badge/SQL-4479A1?style=flat-square&logo=databricks&logoColor=white) ![HTML](https://img.shields.io/badge/HTML-E34F26?style=flat-square&logo=html5&logoColor=white) ![CSS](https://img.shields.io/badge/CSS-1572B6?style=flat-square&logo=css3&logoColor=white) |
-| Dados | ![SQLite](https://img.shields.io/badge/SQLite-003B57?style=flat-square&logo=sqlite&logoColor=white) ![Cloudflare D1](https://img.shields.io/badge/Cloudflare%20D1-F38020?style=flat-square&logo=cloudflare&logoColor=white) |
-| IA e integrações | ![OpenAI](https://img.shields.io/badge/OpenAI-412991?style=flat-square&logo=openai&logoColor=white) ![WhatsApp](https://img.shields.io/badge/WhatsApp%20Cloud%20API-25D366?style=flat-square&logo=whatsapp&logoColor=white) |
+| Dados | ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white) ![SQLite](https://img.shields.io/badge/SQLite-003B57?style=flat-square&logo=sqlite&logoColor=white) ![Cloudflare D1](https://img.shields.io/badge/Cloudflare%20D1-F38020?style=flat-square&logo=cloudflare&logoColor=white) |
+| IA e integrações | ![Claude](https://img.shields.io/badge/Claude%20API-D97757?style=flat-square&logo=anthropic&logoColor=white) ![OpenCV](https://img.shields.io/badge/OpenCV-5C3EE8?style=flat-square&logo=opencv&logoColor=white) ![OpenAI](https://img.shields.io/badge/OpenAI-412991?style=flat-square&logo=openai&logoColor=white) ![WhatsApp](https://img.shields.io/badge/WhatsApp%20Cloud%20API-25D366?style=flat-square&logo=whatsapp&logoColor=white) |
 | Automação e coleta de dados | ![Playwright](https://img.shields.io/badge/Playwright-2EAD33?style=flat-square&logo=playwright&logoColor=white) |
 | Pagamentos | ![Mercado Pago](https://img.shields.io/badge/Mercado%20Pago-00B1EA?style=flat-square&logo=mercadopago&logoColor=white) ![Pix](https://img.shields.io/badge/Pix-32BCAD?style=flat-square&logo=pix&logoColor=white) |
-| Infraestrutura | ![Node.js](https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=nodedotjs&logoColor=white) ![Linux](https://img.shields.io/badge/Linux-FCC624?style=flat-square&logo=linux&logoColor=black) ![Cloudflare](https://img.shields.io/badge/Cloudflare-F38020?style=flat-square&logo=cloudflare&logoColor=white) ![GitHub Actions](https://img.shields.io/badge/GitHub%20Actions-2088FF?style=flat-square&logo=githubactions&logoColor=white) ![Git](https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white) |
+| Infraestrutura | ![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white) ![Windows Server](https://img.shields.io/badge/Windows%20Server-0078D4?style=flat-square&logo=windows&logoColor=white) ![Node.js](https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=nodedotjs&logoColor=white) ![Linux](https://img.shields.io/badge/Linux-FCC624?style=flat-square&logo=linux&logoColor=black) ![Cloudflare](https://img.shields.io/badge/Cloudflare-F38020?style=flat-square&logo=cloudflare&logoColor=white) ![GitHub Actions](https://img.shields.io/badge/GitHub%20Actions-2088FF?style=flat-square&logo=githubactions&logoColor=white) ![Git](https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white) |
 
 ## Contato
 
